@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		A41C257122761061008D7C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C257022761061008D7C83 /* AppDelegate.swift */; };
 		A41C257322761061008D7C83 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A41C257222761061008D7C83 /* GameScene.sks */; };
-		A41C257522761061008D7C83 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A41C257422761061008D7C83 /* Actions.sks */; };
 		A41C257722761061008D7C83 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C257622761061008D7C83 /* GameScene.swift */; };
 		A41C257922761061008D7C83 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C257822761061008D7C83 /* GameViewController.swift */; };
 		A41C257C22761061008D7C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C257A22761061008D7C83 /* Main.storyboard */; };
 		A41C257E22761062008D7C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41C257D22761062008D7C83 /* Assets.xcassets */; };
 		A41C258122761062008D7C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C257F22761062008D7C83 /* LaunchScreen.storyboard */; };
+		A41C258922761123008D7C83 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = A41C258822761123008D7C83 /* fuse.sks */; };
+		A41C258B22761129008D7C83 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = A41C258A22761129008D7C83 /* explode.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A41C256D22761061008D7C83 /* Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41C257022761061008D7C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41C257222761061008D7C83 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A41C257422761061008D7C83 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A41C257622761061008D7C83 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A41C257822761061008D7C83 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A41C257B22761061008D7C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41C257D22761062008D7C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41C258022761062008D7C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41C258222761062008D7C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41C258822761123008D7C83 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		A41C258A22761129008D7C83 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				A41C257022761061008D7C83 /* AppDelegate.swift */,
 				A41C257222761061008D7C83 /* GameScene.sks */,
-				A41C257422761061008D7C83 /* Actions.sks */,
 				A41C257622761061008D7C83 /* GameScene.swift */,
 				A41C257822761061008D7C83 /* GameViewController.swift */,
 				A41C257A22761061008D7C83 /* Main.storyboard */,
 				A41C257D22761062008D7C83 /* Assets.xcassets */,
 				A41C257F22761062008D7C83 /* LaunchScreen.storyboard */,
 				A41C258222761062008D7C83 /* Info.plist */,
+				A41C258822761123008D7C83 /* fuse.sks */,
+				A41C258A22761129008D7C83 /* explode.sks */,
 			);
 			path = Fireworks;
 			sourceTree = "<group>";
@@ -133,9 +136,10 @@
 			files = (
 				A41C257C22761061008D7C83 /* Main.storyboard in Resources */,
 				A41C257322761061008D7C83 /* GameScene.sks in Resources */,
+				A41C258B22761129008D7C83 /* explode.sks in Resources */,
+				A41C258922761123008D7C83 /* fuse.sks in Resources */,
 				A41C257E22761062008D7C83 /* Assets.xcassets in Resources */,
 				A41C258122761062008D7C83 /* LaunchScreen.storyboard in Resources */,
-				A41C257522761061008D7C83 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
